@@ -1,0 +1,45 @@
+.shefs {
+
+	padding-bottom: 30px;
+
+	&-item {
+		width: 350px;
+		min-height: 154px;
+
+		&__profile {
+			margin-bottom: 24px;
+			display: flex;
+			align-items: center;
+		}
+
+		&__descr {
+			margin-left: 24px;
+			small {
+				font-family: 'Helvetica Neue';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 12px;
+				line-height: 16px;
+				/* identical to box height, or 133% */
+
+				letter-spacing: -0.15px;
+
+				color: rgba(255, 255, 255, 0.5);
+			}
+		}
+	}
+
+	&__title {
+		font-family: 'Helvetica Neue';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 21px;
+		/* identical to box height */
+
+		letter-spacing: -0.225px;
+
+		color: #FFFFFF;
+		margin: 0;
+	}
+}

@@ -1,0 +1,14 @@
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	&-object {
+		max-width: 1110px;
+		margin: 0 auto;
+	}
+
+	&-wrap {
+		flex-wrap: wrap;
+	}
+}

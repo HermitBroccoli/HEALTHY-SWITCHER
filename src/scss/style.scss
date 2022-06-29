@@ -1,0 +1,27 @@
+@import '../font/stylesheet';
+@import 'libs/bootstrap-grid.min';
+@import 'libs/bootstrap-reboot.min';
+@import 'block/wrapper';
+@import 'block/title';
+@import 'block/btn';
+@import 'libs/splide-core.min';
+@import 'libs/splide-default.min';
+@import 'libs/splide.min';
+
+* {
+	font-family: 'HelveticaNeue';
+}
+
+body {
+	background: #1A1A1A;
+	color: #fff;
+}
+
+@import 'block/main';
+@import 'block/faund';
+@import 'block/also';
+@import 'block/work';
+@import 'block/dishes';
+@import 'block/shefs';
+@import 'block/recipes';
+@import 'block/footer';
